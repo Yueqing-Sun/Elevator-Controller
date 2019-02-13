@@ -1,0 +1,389 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Jun 27 14:48:33 2017
+# Process ID: 8984
+# Current directory: D:/shuziluoji/最终/Lift2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10956 D:\shuziluoji\最终\Lift2\Lift2.xpr
+# Log file: D:/shuziluoji/最终/Lift2/vivado.log
+# Journal file: D:/shuziluoji/最终/Lift2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/shuziluoji/最终/Lift2/Lift2.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Work/HDL/Lift2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applaction/Vivado/2017.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 818.223 ; gain = 86.219
+update_compile_order -fileset sources_1
+open_bd_design {D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:module_ref:Rest:1.0 - Rest_0
+Adding cell -- xilinx.com:module_ref:translater:1.0 - translater_0
+Adding cell -- xilinx.com:module_ref:translater:1.0 - translater_1
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:module_ref:pai:1.0 - pai_1
+Adding cell -- xilinx.com:module_ref:FenPin:1.0 - FenPin_0
+Adding cell -- xilinx.com:module_ref:compare:1.0 - compare_0
+Adding cell -- xilinx.com:module_ref:counter:1.0 - counter_0
+Adding cell -- xilinx.com:module_ref:clock:1.0 - clock_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/clk_out1(clk) and /FenPin_0/inclk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/clk_out1(clk) and /clock_0/show(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /FenPin_0/outclk(undef) and /counter_0/clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /FenPin_0/outclk(undef) and /clock_0/clk(clk)
+Successfully read diagram <design_1> from BD file <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 859.090 ; gain = 40.867
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jun 27 14:51:14 2017] Launched impl_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.1
+  **** Build date : Apr 14 2017-19:11:07
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0001
+set_property PROGRAM.FILE {D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/shuziluoji/Lift2/Lift2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1012.930 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Tue Jun 27 14:54:53 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0001
+set_property synth_checkpoint_mode Hierarchical [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+generate_target all [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block compare_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clock_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Rest_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pai_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FenPin_0 .
+Exporting to file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+catch { config_ip_cache -export [get_ips -all design_1_clk_wiz_0_0] }
+export_ip_user_files -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+create_ip_run: Time (s): cpu = 00:00:04 ; elapsed = 00:02:05 . Memory (MB): peak = 1113.652 ; gain = 0.000
+launch_runs -jobs 2 {design_1_compare_0_0_synth_1 design_1_translater_0_0_synth_1 design_1_counter_0_1_synth_1 design_1_clock_0_0_synth_1 design_1_Rest_0_0_synth_1 design_1_translater_0_1_synth_1 design_1_pai_1_0_synth_1 design_1_clk_wiz_0_0_synth_1 design_1_FenPin_0_0_synth_1}
+[Tue Jun 27 14:59:18 2017] Launched design_1_compare_0_0_synth_1, design_1_translater_0_0_synth_1, design_1_counter_0_1_synth_1, design_1_clock_0_0_synth_1, design_1_Rest_0_0_synth_1, design_1_translater_0_1_synth_1, design_1_pai_1_0_synth_1, design_1_clk_wiz_0_0_synth_1, design_1_FenPin_0_0_synth_1...
+Run output will be captured here:
+design_1_compare_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_compare_0_0_synth_1/runme.log
+design_1_translater_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_0_synth_1/runme.log
+design_1_counter_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_counter_0_1_synth_1/runme.log
+design_1_clock_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clock_0_0_synth_1/runme.log
+design_1_Rest_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_Rest_0_0_synth_1/runme.log
+design_1_translater_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_1_synth_1/runme.log
+design_1_pai_1_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_pai_1_0_synth_1/runme.log
+design_1_clk_wiz_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clk_wiz_0_0_synth_1/runme.log
+design_1_FenPin_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_FenPin_0_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1113.652 ; gain = 0.000
+export_simulation -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/sim_scripts -ip_user_files_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files -ipstatic_source_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/modelsim} {questa=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/questa} {riviera=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/riviera} {activehdl=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run design_1_compare_0_0_synth_1
+reset_run design_1_translater_0_0_synth_1
+reset_run design_1_counter_0_1_synth_1
+reset_run design_1_clock_0_0_synth_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1
+
+launch_runs synth_1 -jobs 2
+[Tue Jun 27 15:00:24 2017] Launched design_1_compare_0_0_synth_1, design_1_translater_0_0_synth_1, design_1_counter_0_1_synth_1, design_1_clock_0_0_synth_1, design_1_Rest_0_0_synth_1, design_1_translater_0_1_synth_1, design_1_pai_1_0_synth_1, design_1_clk_wiz_0_0_synth_1, design_1_FenPin_0_0_synth_1...
+Run output will be captured here:
+design_1_compare_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_compare_0_0_synth_1/runme.log
+design_1_translater_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_0_synth_1/runme.log
+design_1_counter_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_counter_0_1_synth_1/runme.log
+design_1_clock_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clock_0_0_synth_1/runme.log
+design_1_Rest_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_Rest_0_0_synth_1/runme.log
+design_1_translater_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_1_synth_1/runme.log
+design_1_pai_1_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_pai_1_0_synth_1/runme.log
+design_1_clk_wiz_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clk_wiz_0_0_synth_1/runme.log
+design_1_FenPin_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_FenPin_0_0_synth_1/runme.log
+[Tue Jun 27 15:00:24 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1113.652 ; gain = 0.000
+reset_run design_1_clock_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run design_1_Rest_0_0_synth_1
+reset_run design_1_translater_0_1_synth_1
+reset_run synth_1
+reset_run design_1_compare_0_0_synth_1
+reset_run design_1_translater_0_0_synth_1
+reset_run design_1_counter_0_1_synth_1
+reset_run design_1_pai_1_0_synth_1
+reset_run design_1_clk_wiz_0_0_synth_1
+reset_run design_1_FenPin_0_0_synth_1
+launch_runs synth_1 -jobs 2
+[Tue Jun 27 15:01:10 2017] Launched design_1_compare_0_0_synth_1, design_1_translater_0_0_synth_1, design_1_counter_0_1_synth_1, design_1_clock_0_0_synth_1, design_1_Rest_0_0_synth_1, design_1_translater_0_1_synth_1, design_1_pai_1_0_synth_1, design_1_clk_wiz_0_0_synth_1, design_1_FenPin_0_0_synth_1...
+Run output will be captured here:
+design_1_compare_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_compare_0_0_synth_1/runme.log
+design_1_translater_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_0_synth_1/runme.log
+design_1_counter_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_counter_0_1_synth_1/runme.log
+design_1_clock_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clock_0_0_synth_1/runme.log
+design_1_Rest_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_Rest_0_0_synth_1/runme.log
+design_1_translater_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_1_synth_1/runme.log
+design_1_pai_1_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_pai_1_0_synth_1/runme.log
+design_1_clk_wiz_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clk_wiz_0_0_synth_1/runme.log
+design_1_FenPin_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_FenPin_0_0_synth_1/runme.log
+[Tue Jun 27 15:01:11 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+reset_run synth_1
+reset_run design_1_compare_0_0_synth_1
+reset_run design_1_translater_0_0_synth_1
+reset_run design_1_counter_0_1_synth_1
+reset_run design_1_clock_0_0_synth_1
+reset_run design_1_Rest_0_0_synth_1
+reset_run design_1_translater_0_1_synth_1
+reset_run design_1_pai_1_0_synth_1
+reset_run design_1_clk_wiz_0_0_synth_1
+reset_run design_1_FenPin_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jun 27 15:02:47 2017] Launched design_1_compare_0_0_synth_1, design_1_translater_0_0_synth_1, design_1_counter_0_1_synth_1, design_1_clock_0_0_synth_1, design_1_Rest_0_0_synth_1, design_1_translater_0_1_synth_1, design_1_pai_1_0_synth_1, design_1_clk_wiz_0_0_synth_1, design_1_FenPin_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_compare_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_compare_0_0_synth_1/runme.log
+design_1_translater_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_0_synth_1/runme.log
+design_1_counter_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_counter_0_1_synth_1/runme.log
+design_1_clock_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clock_0_0_synth_1/runme.log
+design_1_Rest_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_Rest_0_0_synth_1/runme.log
+design_1_translater_0_1_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_translater_0_1_synth_1/runme.log
+design_1_pai_1_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_pai_1_0_synth_1/runme.log
+design_1_clk_wiz_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_clk_wiz_0_0_synth_1/runme.log
+design_1_FenPin_0_0_synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/design_1_FenPin_0_0_synth_1/runme.log
+synth_1: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+[Tue Jun 27 15:02:48 2017] Launched impl_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0001
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+delete_ip_run [get_files -of_objects [get_fileset sources_1] D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+delete_fileset: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_fileset: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1137.637 ; gain = 0.000
+delete_ip_run: Time (s): cpu = 00:00:09 ; elapsed = 00:02:03 . Memory (MB): peak = 1137.637 ; gain = 0.000
+set_property synth_checkpoint_mode None [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+generate_target all [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block compare_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clock_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Rest_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pai_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FenPin_0 .
+Exporting to file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+export_ip_user_files -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/sim_scripts -ip_user_files_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files -ipstatic_source_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/modelsim} {questa=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/questa} {riviera=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/riviera} {activehdl=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jun 27 15:07:20 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+[Tue Jun 27 15:07:20 2017] Launched impl_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jun 27 15:17:47 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+[Tue Jun 27 15:17:47 2017] Launched impl_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/runme.log
+update_module_reference design_1_FenPin_0_0
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+Upgrading 'D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_FenPin_0_0 from FenPin_v1_0 1.0 to FenPin_v1_0 1.0
+WARNING: [IP_Flow 19-4697] Upgrade has added interface 'clk' (xilinx.com:signal:clock:1.0)
+WARNING: [IP_Flow 19-3670] Detected external interface differences while upgrading 'design_1_FenPin_0_0'.
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'inclk'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'clk'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'design_1_FenPin_0_0'. These changes may impact your design.
+CRITICAL WARNING: [BD 41-1167] The pin 'inclk' is not found on the upgraded version of the cell '/FenPin_0'. Its connection to the net 'clk_wiz_0_clk_out1' has been removed.
+WARNING: [BD 41-1731] Type mismatch between connected pins: /counter_0/clk(clk) and /FenPin_0_upgraded_ipi/outclk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clock_0/clk(clk) and /FenPin_0_upgraded_ipi/outclk(undef)
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'design_1_FenPin_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+update_module_reference: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1174.855 ; gain = 0.000
+generate_target all [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
+/FenPin_0/clk
+
+ERROR: [BD 41-1031] Hdl Generation failed for the IP Integrator design D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd 
+ERROR: [Common 17-39] 'generate_target' failed due to earlier errors.
+startgroup
+connect_bd_net [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins FenPin_0/clk]
+endgroup
+save_bd_design
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+generate_target all [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd> 
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block compare_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clock_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Rest_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pai_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FenPin_0 .
+Exporting to file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+export_ip_user_files -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/sim_scripts -ip_user_files_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files -ipstatic_source_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/modelsim} {questa=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/questa} {riviera=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/riviera} {activehdl=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jun 27 15:26:03 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+[Tue Jun 27 15:26:03 2017] Launched impl_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Tue Jun 27 15:27:51 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+update_module_reference design_1_FenPin_0_0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+Upgrading 'D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-1972] Upgraded design_1_FenPin_0_0 from FenPin_v1_0 1.0 to FenPin_v1_0 1.0
+WARNING: [IP_Flow 19-4699] Upgrade has removed interface 'clk'
+WARNING: [IP_Flow 19-3670] Detected external interface differences while upgrading 'design_1_FenPin_0_0'.
+WARNING: [IP_Flow 19-4700] Upgrade has removed port 'clk'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'inclk'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'design_1_FenPin_0_0'. These changes may impact your design.
+CRITICAL WARNING: [BD 41-1167] The pin 'clk' is not found on the upgraded version of the cell '/FenPin_0'. Its connection to the net 'clk_wiz_0_clk_out1' has been removed.
+WARNING: [BD 41-1731] Type mismatch between connected pins: /counter_0/clk(clk) and /FenPin_0_upgraded_ipi/outclk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clock_0/clk(clk) and /FenPin_0_upgraded_ipi/outclk(undef)
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'design_1_FenPin_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+update_module_reference: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1193.781 ; gain = 0.000
+connect_bd_net [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins FenPin_0/inclk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/clk_out1(clk) and /FenPin_0/inclk(undef)
+generate_target all [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd> 
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block compare_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clock_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Rest_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pai_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FenPin_0 .
+Exporting to file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+export_ip_user_files -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/sim_scripts -ip_user_files_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files -ipstatic_source_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/modelsim} {questa=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/questa} {riviera=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/riviera} {activehdl=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jun 27 15:30:54 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+[Tue Jun 27 15:30:54 2017] Launched impl_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Tue Jun 27 15:32:58 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+delete_bd_objs [get_bd_cells FenPin_0]
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference FenPin FenPin_0
+set_property location {2 407 -68} [get_bd_cells FenPin_0]
+connect_bd_net [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins FenPin_0/inclk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/clk_out1(clk) and /FenPin_0/inclk(undef)
+connect_bd_net [get_bd_pins counter_0/clk] [get_bd_pins FenPin_0/outclk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /counter_0/clk(clk) and /FenPin_0/outclk(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clock_0/clk(clk) and /FenPin_0/outclk(undef)
+save_bd_design
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+generate_target all [get_files  D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd]
+Wrote  : <D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd> 
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block compare_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clock_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Rest_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block translater_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pai_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block FenPin_0 .
+Exporting to file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+export_ip_user_files -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/shuziluoji/最终/Lift2/Lift2.srcs/sources_1/bd/design_1/design_1.bd] -directory D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/sim_scripts -ip_user_files_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files -ipstatic_source_dir D:/shuziluoji/最终/Lift2/Lift2.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/modelsim} {questa=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/questa} {riviera=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/riviera} {activehdl=D:/shuziluoji/最终/Lift2/Lift2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue Jun 27 15:38:26 2017] Launched synth_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/synth_1/runme.log
+[Tue Jun 27 15:38:26 2017] Launched impl_1...
+Run output will be captured here: D:/shuziluoji/最终/Lift2/Lift2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 27 15:40:10 2017...

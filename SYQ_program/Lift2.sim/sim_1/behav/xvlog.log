@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/Lift2/Lift2.srcs/sources_1/new/time1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/Lift2/Lift2.srcs/sim_1/new/testxxx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testxxx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/shuziluoji/Lift2/Lift2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

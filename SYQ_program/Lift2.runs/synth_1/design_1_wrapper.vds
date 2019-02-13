@@ -1,0 +1,542 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed Jun 28 11:26:28 2017
+# Process ID: 20184
+# Current directory: D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1/design_1_wrapper.vds
+# Journal file: D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applaction/Vivado/2017.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_1_compare_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_compare_0_0/design_1_compare_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_compare_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_compare_0_0/design_1_compare_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_compare_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_compare_0_0/design_1_compare_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_compare_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_compare_0_0/design_1_compare_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_compare_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_compare_0_0/design_1_compare_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_0/design_1_translater_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_0/design_1_translater_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_0/design_1_translater_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_0/design_1_translater_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_0/design_1_translater_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_counter_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_counter_0_1/design_1_counter_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_counter_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_counter_0_1/design_1_counter_0_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_counter_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_counter_0_1/design_1_counter_0_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_counter_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_counter_0_1/design_1_counter_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_counter_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_counter_0_1/design_1_counter_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Rest_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_Rest_0_0/design_1_Rest_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Rest_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_Rest_0_0/design_1_Rest_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Rest_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_Rest_0_0/design_1_Rest_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Rest_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_Rest_0_0/design_1_Rest_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_Rest_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_Rest_0_0/design_1_Rest_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_1/design_1_translater_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_1/design_1_translater_0_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_1/design_1_translater_0_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_1/design_1_translater_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_translater_0_1' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_1/design_1_translater_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pai_1_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_pai_1_0/design_1_pai_1_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pai_1_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_pai_1_0/design_1_pai_1_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pai_1_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_pai_1_0/design_1_pai_1_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pai_1_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_pai_1_0/design_1_pai_1_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_pai_1_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_pai_1_0/design_1_pai_1_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0_0' generated file not found 'd:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:40 . Memory (MB): peak = 235.770 ; gain = 13.152
+Command: synth_design -top design_1_wrapper -part xc7a35tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14420 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 320.309 ; gain = 82.910
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'design_1' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
+INFO: [Synth 8-638] synthesizing module 'design_1_FenPin_0_1' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_FenPin_0_1/synth/design_1_FenPin_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'FenPin' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/FenPin.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FenPin' (1#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/FenPin.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_FenPin_0_1' (2#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_FenPin_0_1/synth/design_1_FenPin_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_Rest_0_0' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_Rest_0_0/synth/design_1_Rest_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'Rest' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/Rest.v:23]
+WARNING: [Synth 8-85] always block has no event control specified [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/Rest.v:27]
+INFO: [Synth 8-256] done synthesizing module 'Rest' (3#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/Rest.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_Rest_0_0' (4#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_Rest_0_0/synth/design_1_Rest_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_0_0' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-638] synthesizing module 'IBUF' [D:/Applaction/Vivado/2017.1/scripts/rt/data/unisim_comp.v:14470]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUF' (5#1) [D:/Applaction/Vivado/2017.1/scripts/rt/data/unisim_comp.v:14470]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [D:/Applaction/Vivado/2017.1/scripts/rt/data/unisim_comp.v:20759]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 6.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 128.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (6#1) [D:/Applaction/Vivado/2017.1/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [D:/Applaction/Vivado/2017.1/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (7#1) [D:/Applaction/Vivado/2017.1/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'design_1_clk_wiz_0_0_clk_wiz' (8#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-256] done synthesizing module 'design_1_clk_wiz_0_0' (9#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v:70]
+INFO: [Synth 8-638] synthesizing module 'design_1_clock_0_0' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clock_0_0/synth/design_1_clock_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'clock' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/time1.v:24]
+INFO: [Synth 8-256] done synthesizing module 'clock' (10#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/time1.v:24]
+INFO: [Synth 8-256] done synthesizing module 'design_1_clock_0_0' (11#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clock_0_0/synth/design_1_clock_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_compare_0_0' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_compare_0_0/synth/design_1_compare_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'compare' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/compare.v:23]
+INFO: [Synth 8-256] done synthesizing module 'compare' (12#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/compare.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_compare_0_0' (13#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_compare_0_0/synth/design_1_compare_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_counter_0_1' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_counter_0_1/synth/design_1_counter_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'counter' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'counter' (14#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/counter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_counter_0_1' (15#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_counter_0_1/synth/design_1_counter_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_pai_1_0' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_pai_1_0/synth/design_1_pai_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'pai' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/pai.v:23]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/pai.v:35]
+INFO: [Synth 8-256] done synthesizing module 'pai' (16#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/pai.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_pai_1_0' (17#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_pai_1_0/synth/design_1_pai_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_translater_0_0' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_0/synth/design_1_translater_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'translater' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/translater.v:23]
+INFO: [Synth 8-256] done synthesizing module 'translater' (18#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/translater.v:23]
+INFO: [Synth 8-256] done synthesizing module 'design_1_translater_0_0' (19#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_0/synth/design_1_translater_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_translater_0_1' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_1/synth/design_1_translater_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1_translater_0_1' (20#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_translater_0_1/synth/design_1_translater_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'design_1_util_vector_logic_0_0' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0/synth/design_1_util_vector_logic_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'util_vector_logic_v2_0_1_util_vector_logic' [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ipshared/6d4d/hdl/util_vector_logic_v2_0_vl_rfs.v:44]
+	Parameter C_OPERATION bound to: or - type: string 
+	Parameter C_SIZE bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'util_vector_logic_v2_0_1_util_vector_logic' (21#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ipshared/6d4d/hdl/util_vector_logic_v2_0_vl_rfs.v:44]
+INFO: [Synth 8-256] done synthesizing module 'design_1_util_vector_logic_0_0' (22#1) [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_util_vector_logic_0_0/synth/design_1_util_vector_logic_0_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (23#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (24#1) [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+WARNING: [Synth 8-3331] design clock has unconnected port rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 360.387 ; gain = 122.988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 360.387 ; gain = 122.988
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcsg324-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/shuziluoji/Final/Lift2/Lift2.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [D:/shuziluoji/Final/Lift2/Lift2.srcs/constrs_1/new/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/shuziluoji/Final/Lift2/Lift2.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 628.637 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 628.637 ; gain = 391.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 628.637 ; gain = 391.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i/clk_wiz_0/inst. (constraint file  D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1/dont_touch.xdc, line 40).
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/FenPin_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Rest_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/clock_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/compare_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/counter_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/pai_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/translater_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/translater_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/util_vector_logic_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 628.637 ; gain = 391.238
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element timeclk_reg was removed.  [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/FenPin.v:30]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/counter.v:36]
+WARNING: [Synth 8-6014] Unused sequential element sl_reg_reg was removed.  [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/counter.v:37]
+INFO: [Synth 8-5544] ROM "sec" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element ClrLED_reg was removed.  [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/pai.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'outled_reg' [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/translater.v:31]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 628.637 ; gain = 391.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Rest 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module clock 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module pai 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module translater 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element inst/timeclk_reg was removed.  [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/FenPin.v:30]
+WARNING: [Synth 8-6014] Unused sequential element inst/sl_reg_reg was removed.  [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/counter.v:37]
+WARNING: [Synth 8-6014] Unused sequential element inst/ClrLED_reg was removed.  [D:/shuziluoji/Final/Lift2/Lift2.srcs/sources_1/new/pai.v:40]
+WARNING: [Synth 8-3331] design design_1_clock_0_0 has unconnected port rst
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[20]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[21]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[22]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[23]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[24]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[25]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[26]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[27]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[28]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[29]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[30]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[31]) is unused and will be removed from module design_1_FenPin_0_1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 628.637 ; gain = 391.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 628.637 ; gain = 391.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[20]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[21]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[22]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[23]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[24]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[25]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[26]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[27]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[28]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[29]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[30]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[31]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[20]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[21]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[22]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[23]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[24]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[25]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[26]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[27]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[28]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[29]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[30]) is unused and will be removed from module design_1_FenPin_0_1.
+INFO: [Synth 8-3332] Sequential element (inst/timeclk_reg[31]) is unused and will be removed from module design_1_FenPin_0_1.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 628.637 ; gain = 391.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |CARRY4     |     7|
+|3     |LUT1       |    33|
+|4     |LUT2       |     8|
+|5     |LUT3       |     6|
+|6     |LUT4       |    31|
+|7     |LUT5       |     1|
+|8     |LUT6       |     2|
+|9     |MMCME2_ADV |     1|
+|10    |FDRE       |    52|
+|11    |LDC        |    12|
+|12    |LDP        |     2|
+|13    |IBUF       |     7|
+|14    |OBUF       |    17|
++------+-----------+------+
+
+Report Instance Areas: 
++------+------------------------+-------------------------------+------+
+|      |Instance                |Module                         |Cells |
++------+------------------------+-------------------------------+------+
+|1     |top                     |                               |   181|
+|2     |  design_1_i            |design_1                       |   158|
+|3     |    FenPin_0            |design_1_FenPin_0_1            |    45|
+|4     |      inst              |FenPin                         |    45|
+|5     |    Rest_0              |design_1_Rest_0_0              |     4|
+|6     |    clk_wiz_0           |design_1_clk_wiz_0_0           |     4|
+|7     |      inst              |design_1_clk_wiz_0_0_clk_wiz   |     4|
+|8     |    clock_0             |design_1_clock_0_0             |    23|
+|9     |      inst              |clock                          |    23|
+|10    |    compare_0           |design_1_compare_0_0           |     4|
+|11    |    counter_0           |design_1_counter_0_1           |     9|
+|12    |      inst              |counter                        |     9|
+|13    |    pai_1               |design_1_pai_1_0               |    36|
+|14    |      inst              |pai                            |    36|
+|15    |    translater_0        |design_1_translater_0_0        |    16|
+|16    |      inst              |translater_0                   |    16|
+|17    |    translater_1        |design_1_translater_0_1        |    16|
+|18    |      inst              |translater                     |    16|
+|19    |    util_vector_logic_0 |design_1_util_vector_logic_0_0 |     1|
++------+------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 638.297 ; gain = 132.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 638.297 ; gain = 400.898
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  LDC => LDCE: 12 instances
+  LDP => LDPE: 2 instances
+
+105 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:45 . Memory (MB): peak = 643.715 ; gain = 407.945
+INFO: [Common 17-1381] The checkpoint 'D:/shuziluoji/Final/Lift2/Lift2.runs/synth_1/design_1_wrapper.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 643.715 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 28 11:27:57 2017...
